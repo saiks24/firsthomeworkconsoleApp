@@ -1,0 +1,21 @@
+{
+  "name": "saiks23/consoleApplicationOtusFirstHomework",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "saiks23",
+      "email": "saiks1337@gmail.com"
+    }
+  ],
+  "require": {
+    "saiks23/stringvalidator": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "validate\\": "src/validate/",
+      "exceptions\\": "src/exceptions/",
+      "fileSystem\\": "src/filesystem/"
+    }
+  }
+}
